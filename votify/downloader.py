@@ -46,7 +46,7 @@ class Downloader:
         self,
         spotify_api: SpotifyApi,
         output_path: Path = Path(""),
-        temp_path: Path = Path(""),
+        temp_path: Path = Path("temp"),
         wvd_path: Path = Path("./device.wvd"),
         aria2c_path: str = "aria2c",
         ffmpeg_path: str = "ffmpeg",
